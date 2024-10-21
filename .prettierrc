@@ -1,0 +1,22 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": false,
+  "importOrder": [
+    "^react(.*)",
+    "^next(.*)",
+    "antd/(.*)",
+    "<THIRD_PARTY_MODULES>",
+    "^@/app",
+    "^@/components",
+    "^@/services",
+    "^@/utils",
+    "@/(.*)",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "plugins": [
+    "prettier-plugin-tailwindcss",
+    "@trivago/prettier-plugin-sort-imports"
+  ]
+}
